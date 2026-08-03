@@ -43,36 +43,36 @@ const Register = () => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
-            <FiUser className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiUser className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="text"
               required
               placeholder="Full name"
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
           <div className="relative">
-            <FiMail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="email"
               required
               placeholder="Email address"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
           <div className="relative">
-            <FiLock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiLock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="password"
               required
               placeholder="Password (min. 6 characters)"
               value={form.password}
               onChange={(e) => setForm({ ...form, password: e.target.value })}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
 

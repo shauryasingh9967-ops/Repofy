@@ -55,25 +55,25 @@ const ResetPassword = () => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
-            <FiLock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiLock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="password"
               required
               placeholder="New password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
           <div className="relative">
-            <FiLock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiLock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="password"
               required
               placeholder="Confirm new password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
 

@@ -53,14 +53,14 @@ const ForgotPassword = () => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
-            <FiMail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+            <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
             <input
               type="email"
               required
               placeholder="Email address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="input-field pl-9"
+              className="input-field pl-12"
             />
           </div>
 
